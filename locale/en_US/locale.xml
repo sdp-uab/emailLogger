@@ -13,6 +13,6 @@
 
 <locale name="en_US" full_name="U.S. English">
 	<message key="plugins.generic.emailLogger.displayName">Email Logger</message>
-	<message key="plugins.generic.emailLogger.description">Log all emails sent by the system. Once enabled, you can check the existence of the email log entries using the plugin methods exists() and existsByAssoc(). The main purpose of this plugin is to help functional tests to check whether or not the system sent an email.</message>
+	<message key="plugins.generic.emailLogger.description">Log all emails sent by the system. DO NOT ENABLE in production system, use it only for testing. See the plugin README file for documentation.<message>
 </locale>
 
