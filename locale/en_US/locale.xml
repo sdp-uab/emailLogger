@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../dtd/locale.dtd">
+
+<!--
+ * plugins/generic/emailLogger/locale/en_US/locale.xml
+ *
+ * Copyright (c) 2013-2014 Simon Fraser University Library
+ * Copyright (c) 2003-2014 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Localization strings.
+  -->
+
+<locale name="en_US" full_name="U.S. English">
+	<message key="plugins.generic.emailLogger.displayName">Email Logger</message>
+	<message key="plugins.generic.emailLogger.description">Log all emails sent by the system. Once enabled, you can check the existence of the email log entries using the plugin methods exists() and existsByAssoc(). The main purpose of this plugin is to help functional tests to check whether or not the system sent an email.</message>
+</locale>
+
