@@ -152,7 +152,7 @@ class EmailLoggerPlugin extends GenericPlugin {
 			foreach ($log as $entry) {
 				$returner = true; // Consider every entry as a possible match.
 				if ($returner && $notificationType) {
-					if ($entry['notification_type'] !== $notificationType) {
+					if ($entry['notification_type'] != $notificationType) {
 						$returner = false;
 					}
 				}
@@ -212,7 +212,7 @@ class EmailLoggerPlugin extends GenericPlugin {
 				}
 
 				if ($eventType) {
-					if ($entry->getEventType() !== $eventType) {
+					if ($entry->getEventType() != $eventType) {
 						$returner = false;
 					}
 				}
