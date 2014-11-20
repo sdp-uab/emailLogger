@@ -1,15 +1,14 @@
 <?php
 
 /**
- * @file plugins/generic/emailLogger/EmailLoggerPlugin.inc.php
+ * @file EmailLoggerPlugin.inc.php
  *
  * Copyright (c) 2013 Simon Fraser University Library
  * Copyright (c) 2003-2013 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
+ * @package plugins.generic.emailLogger
  * @class EmailLoggerPlugin
- * @ingroup plugins_generic_emailLogger
- *
  * @brief Plugin that will log all emails sent by the system.
  * The main purpose is to be used by tests to verify whether emails were sent or not.
  * When enabled, will prevent any email from going out.

@@ -1,14 +1,14 @@
 <?php
 
 /**
- * @file tests/plugins/emailLogger/EmailLoggerTest.php
+ * @file tests/EmailLoggerTest.php
  *
  * Copyright (c) 2014 Simon Fraser University Library
  * Copyright (c) 2000-2014 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class EmailLoggerTest
- * @ingroup tests_plugins_emailLogger
+ * @package plugins.generic.emailLogger
  *
  * @brief Tests for the EmailLoggerPlugin class.
  */
