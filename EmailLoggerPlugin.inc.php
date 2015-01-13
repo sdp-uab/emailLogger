@@ -33,8 +33,10 @@ class EmailLoggerPlugin extends GenericPlugin {
 	function register($category, $path) {
 		$success = parent::register($category, $path);
 		if ($success) {
-			HookRegistry::register('Mail::send', array($this, 'mailSendCallback'));
-			HookRegistry::register('PKPNotificationOperationManager::sendNotificationEmail', array($this, 'recordNotificationDetails'));
+			if ($this->getEnabled()) {
+				HookRegistry::register('Mail::send', array($this, 'mailSendCallback'));
+				HookRegistry::register('PKPNotificationOperationManager::sendNotificationEmail', array($this, 'recordNotificationDetails'));
+			}
 		}
 
 		return $success;
