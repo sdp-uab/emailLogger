@@ -14,7 +14,7 @@
  -->
 
 <locale name="ca_ES" full_name="Català">
-	<message key="plugins.generic.emailLogger.displayName">Email Logger</message>
-	<message key="plugins.generic.emailLogger.description">Log all emails sent by the system. DO NOT ENABLE in production system, use it only for testing. See the plugin README file for documentation.</message>
+	<message key="plugins.generic.emailLogger.displayName">Registre de correus</message>
+	<message key="plugins.generic.emailLogger.description">Registra tots els correus enviats pel sistema. Utilitza'l només a llocs de proves, NO ACTIVAR a producció. Llegeix el fitxer README del mòdul per més informació.</message>
 </locale>
 
